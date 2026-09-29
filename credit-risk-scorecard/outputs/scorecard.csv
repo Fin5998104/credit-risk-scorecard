@@ -1,0 +1,61 @@
+feature,bin,woe,points
+checking_status,0<=X<200,-0.416,30
+checking_status,<0,-0.763,23
+checking_status,>=200,0.11,42
+checking_status,no checking,1.172,65
+credit_history,all paid,-1.052,20
+credit_history,critical/other existing credit,0.69,52
+credit_history,delayed previously,-0.142,37
+credit_history,existing paid,-0.084,38
+credit_history,no credits/all paid,-1.124,19
+savings_status,100<=X<500,-0.107,37
+savings_status,500<=X<1000,0.68,56
+savings_status,<100,-0.302,32
+savings_status,>=1000,0.931,62
+savings_status,no known savings,0.842,60
+duration,"(-inf, 12.0]",0.486,51
+duration,"(12.0, 15.0]",0.479,51
+duration,"(15.0, 24.0]",-0.201,35
+duration,"(24.0, 30.0]",-0.134,36
+duration,"(30.0, inf]",-0.632,24
+employment,1<=X<4,0.072,41
+employment,4<=X<7,0.502,50
+employment,<1,-0.58,28
+employment,>=7,0.189,43
+employment,unemployed,-0.688,25
+property_magnitude,car,-0.037,39
+property_magnitude,life insurance,0.046,40
+property_magnitude,no known property,-0.685,33
+property_magnitude,real estate,0.464,44
+purpose,business,-0.227,34
+purpose,domestic appliance,-0.084,37
+purpose,education,-0.902,18
+purpose,furniture/equipment,-0.123,36
+purpose,new car,-0.183,35
+purpose,other,-0.258,33
+purpose,radio/tv,0.378,49
+purpose,repairs,-0.366,31
+purpose,retraining,0.253,46
+purpose,used car,0.532,52
+other_payment_plans,bank,-0.746,24
+other_payment_plans,none,0.174,43
+other_payment_plans,stores,-0.321,33
+housing,for free,-0.5,33
+housing,own,0.213,42
+housing,rent,-0.471,33
+credit_amount,"(-inf, 1248.2]",-0.072,39
+credit_amount,"(1248.2, 1919.0]",0.329,44
+credit_amount,"(1919.0, 2788.8]",0.018,40
+credit_amount,"(2788.8, 4738.0]",0.169,42
+credit_amount,"(4738.0, inf]",-0.414,34
+age,"(-inf, 26.0]",-0.352,33
+age,"(26.0, 30.6]",-0.074,38
+age,"(30.6, 36.0]",0.136,42
+age,"(36.0, 44.0]",0.253,44
+age,"(44.0, inf]",0.104,41
+installment_commitment,"(-inf, 2.0]",0.238,48
+installment_commitment,"(2.0, 3.0]",-0.106,36
+installment_commitment,"(3.0, inf]",-0.15,34
+other_parties,co applicant,-0.586,30
+other_parties,guarantor,0.453,47
+other_parties,none,0.006,40
